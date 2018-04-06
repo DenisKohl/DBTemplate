@@ -28,6 +28,7 @@ public class Main {
 			stmt.setString(1, "Hans");
 			stmt.setInt(2, 34);
 			stmt.executeUpdate();
+			System.out.println("Abfrage wird gestartet");
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
